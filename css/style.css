@@ -1,0 +1,31 @@
+figcaption{
+    left: 10px;
+    right: 10px;
+    bottom: -200%;
+    transition: bottom 0.4s;
+}
+figure:hover figcaption{
+    bottom: 10px;
+}
+.innerLayer{
+    width: 650px;
+    height: 450px;
+}
+i{
+    position: absolute;
+    cursor: pointer;
+}
+.nxt{
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.prv{
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.close{
+    right: 15px;
+    top: 15px;
+}
